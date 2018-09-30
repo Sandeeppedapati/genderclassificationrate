@@ -28,7 +28,7 @@ prediction = clf.predict(X_test)
 
 print("accuracy score is :",accuracy_score(Y_test,prediction))
 
-"""# ***Random forest***"""
+#"""# ***Random forest***"""
 
 from sklearn.ensemble import RandomForestClassifier
 
@@ -39,7 +39,7 @@ prediction = clf.predict(X_test)
 
 print("accuracy score is :",accuracy_score(Y_test,prediction))
 
-"""# ***K Nearest Neighbours***"""
+#"""# ***K Nearest Neighbours***"""
 
 from sklearn.neighbors import KNeighborsClassifier
 
@@ -50,7 +50,7 @@ prediction = clf.predict(X_test)
 
 print("accuracy score is :",accuracy_score(Y_test,prediction))
 
-"""# ***Gaussian NB***"""
+#"""# ***Gaussian NB***"""
 
 from sklearn.naive_bayes import GaussianNB
 
